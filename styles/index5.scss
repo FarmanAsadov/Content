@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  .main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-left {
+      margin-top: 6.5rem;
+      img {
+        height: 30rem;
+      }
+    }
+    &-right {
+      h2 {
+        font-size: 2.5rem;
+      }
+      &-mail {
+        padding: 15px;
+        border-radius: 8px;
+
+        outline: none;
+      }
+      &-sbmt {
+        background-color: #23a6f0;
+        padding: 15px;
+        color: #fff;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+      }
+      p {
+        opacity: 0.8;
+      }
+    }
+  }
+}

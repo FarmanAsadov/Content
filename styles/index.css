@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../assets/images/filter.png");
+}
+
+.container {
+  text-align: center;
+}
+.container .container_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.container .container_content h2 {
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=index.css.map */

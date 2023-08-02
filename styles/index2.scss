@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../assets/images/filter-2.png");
+}
+
+.container {
+  text-align: center;
+  .container_content {
+    margin-top: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+
+    align-items: center;
+    color: #fff;
+    h5 {
+      font-size: 17px;
+      padding: 0;
+      margin: 0;
+    }
+    &-large {
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding: 0;
+      margin: 0;
+    }
+    &-small {
+      padding: 0;
+      margin: 0;
+      font-size: 0.95rem;
+    }
+    &-btns {
+      display: flex;
+      column-gap: 2rem;
+      .btn-left {
+        background-color: #23a6f0;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 13px 40px;
+        cursor: pointer;
+      }
+      .btn-right {
+        background-color: transparent;
+        color: #23a6f0;
+        border: 1px solid #23a6f0;
+        border-radius: 8px;
+        cursor: pointer;
+        padding: 13px 40px;
+      }
+    }
+  }
+}

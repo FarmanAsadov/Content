@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  .header__container {
+    padding: 20px;
+    &-list {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 5rem;
+      &-links {
+        color: rgb(158, 151, 151);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      &-span {
+        color: green;
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+#main {
+  .main__container {
+    display: flex;
+    justify-content: center;
+    margin: 0 8rem;
+    column-gap: 3rem;
+    border-top: 1px solid lightgray;
+    padding-top: 50px;
+    margin-bottom: 3rem;
+    &-left {
+      width: 500px;
+      &-users {
+        display: flex;
+        flex-direction: column;
+        column-gap: 1rem;
+        &-section {
+          display: flex;
+          column-gap: 2rem;
+          &-content {
+            h3 {
+              font-size: 1.5rem;
+            }
+            p {
+              font-weight: 500;
+              color: rgb(158, 151, 151);
+            }
+            &-list-stars {
+              list-style-type: none;
+              display: flex;
+              padding: 0;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+    &-right {
+      margin-top: 4rem;
+      .h3 {
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+      .p {
+        width: 25rem;
+        color: rgb(158, 151, 151);
+      }
+      &-list-rating {
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+        ul {
+          list-style-type: none;
+          display: flex;
+          column-gap: 1rem;
+          padding: 0;
+          margin: 0;
+        }
+      }
+      &-form {
+        display: flex;
+        flex-direction: column;
+        .message {
+          width: 350px;
+          height: 80px;
+          padding: 10px;
+          font-size: 1.5rem;
+          border-radius: 8px;
+          outline: none;
+        }
+        .user-info {
+          .text {
+            margin: 20px 0 0 0;
+            width: 175px;
+            height: 45px;
+            font-size: 1.5rem;
+            border-radius: 8px;
+            outline: none;
+          }
+          .email {
+            font-size: 1.5rem;
+
+            margin: 20px 0 0 0;
+            width: 175px;
+            height: 45px;
+            border-radius: 8px;
+            outline: none;
+          }
+        }
+        .c-box {
+          margin: 20px 0;
+          align-items: center;
+          color: rgb(158, 151, 151);
+        }
+        .sbmt {
+          background-color: rgb(35 166 239);
+          border: none;
+          width: 30%;
+          padding: 16px 10px;
+          color: #fff;
+          font-weight: bold;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}

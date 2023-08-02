@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header .header__container {
+  padding: 20px;
+}
+#header .header__container-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+#header .header__container-list-links {
+  color: rgb(158, 151, 151);
+  font-weight: 600;
+  text-decoration: none;
+}
+#header .header__container-list-span {
+  color: green;
+  padding-left: 5px;
+}
+
+#main .main__container {
+  display: flex;
+  justify-content: center;
+  margin: 0 8rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  border-top: 1px solid lightgray;
+  padding-top: 50px;
+  margin-bottom: 3rem;
+}
+#main .main__container-left {
+  width: 500px;
+}
+#main .main__container-left-users {
+  display: flex;
+  flex-direction: column;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+#main .main__container-left-users-section {
+  display: flex;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+#main .main__container-left-users-section-content h3 {
+  font-size: 1.5rem;
+}
+#main .main__container-left-users-section-content p {
+  font-weight: 500;
+  color: rgb(158, 151, 151);
+}
+#main .main__container-left-users-section-content-list-stars {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+#main .main__container-right {
+  margin-top: 4rem;
+}
+#main .main__container-right .h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+#main .main__container-right .p {
+  width: 25rem;
+  color: rgb(158, 151, 151);
+}
+#main .main__container-right-list-rating {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+#main .main__container-right-list-rating ul {
+  list-style-type: none;
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+#main .main__container-right-form {
+  display: flex;
+  flex-direction: column;
+}
+#main .main__container-right-form .message {
+  width: 350px;
+  height: 80px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  outline: none;
+}
+#main .main__container-right-form .user-info .text {
+  margin: 20px 0 0 0;
+  width: 175px;
+  height: 45px;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  outline: none;
+}
+#main .main__container-right-form .user-info .email {
+  font-size: 1.5rem;
+  margin: 20px 0 0 0;
+  width: 175px;
+  height: 45px;
+  border-radius: 8px;
+  outline: none;
+}
+#main .main__container-right-form .c-box {
+  margin: 20px 0;
+  align-items: center;
+  color: rgb(158, 151, 151);
+}
+#main .main__container-right-form .sbmt {
+  background-color: rgb(35, 166, 239);
+  border: none;
+  width: 30%;
+  padding: 16px 10px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}/*# sourceMappingURL=index18.css.map */

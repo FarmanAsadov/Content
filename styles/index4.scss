@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+  &-left {
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 25px;
+      margin: 30px 0;
+    }
+    p {
+      margin: 0;
+      margin-top: 30px;
+      padding: 0;
+      color: red;
+    }
+  }
+  &-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.5rem;
+    p {
+      color: #737373;
+    }
+    &-imgs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 3rem;
+    }
+  }
+}

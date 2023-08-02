@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main .main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main .main__container-left {
+  margin-top: 6.5rem;
+}
+#main .main__container-left img {
+  height: 30rem;
+}
+#main .main__container-right h2 {
+  font-size: 2.5rem;
+}
+#main .main__container-right-mail {
+  padding: 15px;
+  border-radius: 8px;
+  outline: none;
+}
+#main .main__container-right-sbmt {
+  background-color: #23a6f0;
+  padding: 15px;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+#main .main__container-right p {
+  opacity: 0.8;
+}/*# sourceMappingURL=index5.css.map */

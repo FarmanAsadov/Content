@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+.container__left-top-text {
+  color: red;
+  font-weight: bold;
+}
+.container__left-center-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container__right-text {
+  opacity: 0.6;
+}/*# sourceMappingURL=index6.css.map */

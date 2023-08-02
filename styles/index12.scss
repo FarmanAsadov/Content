@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  .header__container {
+    padding: 20px;
+    &-list {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 5rem;
+      &-links {
+        color: rgb(158, 151, 151);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      &-span {
+        color: green;
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+#main {
+  .main__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    margin: 0 100px;
+    border-top: 1px solid lightgray;
+    padding-top: 50px;
+    &-cards {
+      width: 370px;
+      &-img {
+        width: 370px;
+        height: 370px;
+      }
+      h2 {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      p {
+        color: rgb(158, 151, 151);
+      }
+      &-list {
+        color: rgb(158, 151, 151);
+        list-style-image: url("../assets/icon/arrow-right.png");
+        padding: 0 0 0 15px;
+        li {
+          margin: 8px 0;
+        }
+      }
+    }
+  }
+}
